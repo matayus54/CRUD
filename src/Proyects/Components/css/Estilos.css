@@ -1,0 +1,91 @@
+
+
+*{
+font-family: 'Akaya Telivigala', cursive;
+text-transform: capitalize;
+padding: 0;
+margin: 0;
+}
+
+.alineacionDerecha{
+    
+    text-align: right;
+}
+
+.body{
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0 calc(100vw - 100%);
+}
+
+.boton{
+    height: 5vh;
+    border-radius: 15px;
+    padding:  2vh 1vw 5vh;
+    font-size: 1.5vw;
+    color: #0b1f57;
+}
+
+.estiloRedondeado{
+    border-radius: 15px;
+    border: 1px solid black;
+    padding:  1.5vw;
+    outline: thick double #a0e7d8;
+}
+
+.estilosTexto{
+color:azure;
+font-size: 2vw;
+font-weight: bold;
+}
+
+
+
+.containerFilas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerColumnas{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.green{
+    background:  rgb(143, 230, 143);;
+}
+
+.celeste{
+    background: lightblue;
+}
+
+.yellow{
+background: yellow;
+}
+
+
+.rellenoDegradado{
+    background: linear-gradient(to bottom right, #261515, #113F4E); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+.transparente{
+    background: rgba(0,0,255,0.05);
+}
+.imagenFondo{
+    background-image: url("https://energiatoday.com/wp-content/uploads/2020/04/clima_1586074585.jpg");
+
+    background-repeat: no-repeat;
+    Background-position:fixed;
+    background-attachment: fixed;
+    background-size: 100vw;
+
+
+}
