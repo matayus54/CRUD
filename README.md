@@ -31,8 +31,8 @@ npm start
 
 ## This project is located at:
 
-* https://fanciful-bunny-624a80.netlify.app
-* https://github.com/matayus54/Quote_Machine
+* https://legendary-vacherin-a8c7ec.netlify.app/
+* https://github.com/matayus54/AppWeather
 
 
 ## Author
