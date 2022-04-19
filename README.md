@@ -220,8 +220,8 @@ npm start
 
 ## This project is located at:
 
-<!-- - https://legendary-vacherin-a8c7ec.netlify.app/
-- https://github.com/matayus54/AppWeather -->
+- https://thriving-horse-17d709.netlify.app/
+- https://github.com/matayus54/AppRickAndMorty
 
 ## Author: 👤 **Arthur Mazius**
 
