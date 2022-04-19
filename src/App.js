@@ -1,13 +1,17 @@
-import './App.css';
-import FormatWeather from './Proyects/AppWeather/FormatWeather';
+import "./App.css";
+/* 
+import FormatWeather from './Proyects/AppWeather/FormatWeather'; 
+import FormatPokemons from "./Proyects/AppPokemons/FormatPokemons.js";*/
+import FormatRickAndMorty from "./Proyects/AppRickAndMorty/LocationInfo.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header imagenFondo ">
-        <FormatWeather/>
-      </header>
-    </div>
+    <header className="App-header">
+      {/* <FormatWeather/> 
+        <FormatPokemons />*/}
+
+      <FormatRickAndMorty />
+    </header>
   );
 }
 
