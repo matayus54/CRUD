@@ -1,16 +1,20 @@
 import "./App.css";
-/* 
-import FormatWeather from './Proyects/AppWeather/FormatWeather'; 
-import FormatPokemons from "./Proyects/AppPokemons/FormatPokemons.js";*/
-import FormatRickAndMorty from "./Proyects/AppRickAndMorty/LocationInfo.js";
+import { useState } from "react";
+import FormatCrud from "./Projects/Crud/FormatCrud";
 
 function App() {
-  return (
-    <header className="App-header">
-      {/* <FormatWeather/> 
-        <FormatPokemons />*/}
+  const [dark, setDark] = useState(false);
+  const [color, setColor] = useState("dark");
 
-      <FormatRickAndMorty />
+  let HandlerTheme = () => {
+    console.log("theme change of " + color);
+    !dark ? setDark(true) : setDark(false);
+    setColor(!dark ? "light" : "dark");
+  };
+
+  return (
+    <header className={`App-header ${color}`} onDoubleClick={HandlerTheme}>
+      <FormatCrud />
     </header>
   );
 }

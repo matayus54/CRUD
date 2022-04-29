@@ -1,0 +1,216 @@
+@import "./neon.css";
+
+* {
+  font-family: "Akaya Telivigala", cursive;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 calc(100vw - 100%);
+}
+.boton {
+  height: auto;
+  border-radius: 15px;
+  padding: 1vw;
+  font-size: 1vw;
+  color: #0b1f57;
+  cursor: pointer;
+  text-decoration: none;
+}
+.pad {
+  padding: 0.2vw;
+}
+.pad-top {
+  padding-top: 3vw;
+}
+.mar {
+  margin: 1vw;
+}
+
+.mar-bottom {
+  margin: 1vw;
+  margin-bottom: 3vw;
+}
+
+.pad-mar {
+  margin: 1vw;
+  padding: 0.2vw;
+}
+
+.t-derecha {
+  text-align: right;
+}
+
+.t-izquierda {
+  text-align: left;
+}
+.a-center {
+  align-items: center;
+}
+
+.j-content {
+  justify-content: left;
+}
+
+.Alive {
+  background: rgb(1, 98, 18);
+}
+.Dead {
+  background: rgb(100, 15, 15);
+}
+.unknown {
+  background: rgb(111, 119, 120);
+}
+
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.b-f {
+  /* 
+  relative - absolute
+   */
+  top: 10px;
+  right: 20px;
+  font-size: 17px;
+  position: absolute;
+}
+.fsize {
+  font-size: 1px;
+}
+.b-radius {
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 1vw;
+  outline: thick double #a0e7d8;
+}
+
+.b-radius-S {
+  border-radius: 15px 10px;
+  padding: 1vw;
+}
+
+.estiloTitulo {
+  color: azure;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.t-normal {
+  color: azure;
+  font-size: 1vw;
+  font-weight: normal;
+}
+.tA-left {
+  text-align: left;
+}
+
+.tA-center {
+  text-align: center;
+  justify-content: center;
+}
+.width100 {
+  width: 100%;
+}
+.width50 {
+  width: 40%;
+}
+.width90 {
+  width: 90%;
+}
+
+.cFilas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cColumns {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: space-around;
+}
+
+.cColumns5 {
+  grid-template-columns: repeat(5, 1fr);
+  margin: 3vw;
+}
+
+.cColumns4 {
+  grid-template-columns: repeat(4, 1fr);
+  margin: 3vw;
+}
+.cColumns3 {
+  grid-template-columns: repeat(3, 1fr);
+  margin: 3vw;
+}
+.cColumns2R {
+  grid-template-columns: 2.5fr 1fr;
+  margin: 3vw;
+}
+.cColumns1L {
+  grid-template-columns: 1fr;
+  margin: 0.5vw;
+}
+.cColumns2L {
+  grid-template-columns: 0.5fr 4fr;
+  margin: 0.5vw;
+}
+.cColumns3L {
+  grid-template-columns: 0.6fr repeat(2, 2fr);
+  margin: 0.5vw;
+}
+.cColumns2 {
+  grid-template-columns: repeat(2, 1fr);
+  margin: 3vw;
+}
+
+.l-Green {
+  background: rgb(143, 230, 143);
+}
+.d-Green {
+  color: #61dafb;
+}
+
+.celeste {
+  background: lightblue;
+}
+
+.yellow {
+  background: yellow;
+}
+.red {
+  color: rgb(239, 83, 80);
+}
+
+.bDark {
+  background: linear-gradient(to bottom right, #261515, #113f4e);
+}
+.bDark-black {
+  background: linear-gradient(to bottom right, #261515, #041711);
+}
+
+.rellenoDegradado {
+  background: linear-gradient(to bottom right, #261515, #113f4e);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+.transparente {
+  background: rgba(0, 0, 255, 0.05);
+}
+.imagenFondo {
+  background-image: url("https://energiatoday.com/wp-content/uploads/2020/04/clima_1586074585.jpg");
+
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-attachment: fixed;
+  background-size: 100vw;
+}
