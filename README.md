@@ -47,7 +47,7 @@ npm start
 
 ## This project is located at:
 
-- https://thriving-horse-17d709.netlify.app/
+- https://grand-chebakia-90000d.netlify.app/
 - https://github.com/matayus54/CRUD
 
 ## Author: 👤 **Arthur Mazius**
